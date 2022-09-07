@@ -20,6 +20,6 @@
   
 };
 ```
-6.
+6.NaN
 7.
 8. I have Intermediate knowledge of English language.
