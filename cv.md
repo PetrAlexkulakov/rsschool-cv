@@ -21,7 +21,5 @@
 };
 ```
 6.NaN
-
 7.NaN
-
 8. I have Intermediate knowledge of English language.
