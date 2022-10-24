@@ -35,23 +35,19 @@
   background-color: white;
   border: 1px solid gray;
 }
-.playing-place .card {
+
+.card {
   border: 1px solid gray;
   text-align: center;
   vertical-align: middle;
   color: gray;
   padding-top: 37px;
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
 }
-.playing-place .card_empty {
+
+.card_empty {
   background-color: burlywood;
-}
-
-.now_size {
-  background-color: chartreuse;
-}
-
-.other_size {
-  background-color: chocolate;
 }
 
 .timer-place {
@@ -89,4 +85,52 @@
   height: max-content;
   margin-top: 10px;
   cursor: pointer;
+}
+
+.end-gameWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2%;
+}
+
+.button-Save_Result {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.results-display {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.card_right {
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  background-color: white;
+}
+
+@-webkit-keyframes toright {
+  from {
+    right: 0;
+  }
+  to {
+    right: 150px;
+  }
+}
+
+@keyframes toright {
+  from {
+    right: 0;
+  }
+  to {
+    right: 150px;
+  }
 }/*# sourceMappingURL=style.css.map */

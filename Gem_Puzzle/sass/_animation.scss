@@ -1,0 +1,14 @@
+.card_right{
+    transition:all 0.5s linear;
+    -webkit-transition:all 0.5s linear;
+    background-color: white;
+}
+
+@keyframes toright{
+    from{
+        right: 0;
+    }
+    to{
+        right: 150px;
+    }
+}

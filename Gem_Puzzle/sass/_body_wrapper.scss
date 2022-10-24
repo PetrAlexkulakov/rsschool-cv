@@ -29,22 +29,20 @@
     background-color: white;
     border: 1px solid gray;
 
-    .card{
-        border: 1px solid gray;
-        text-align: center;
-        vertical-align: middle;
-        color: gray;
-        padding-top: 37px;
-       // animation-duration: 500ms;
-    }
 
-    .card_empty{
-        background-color: burlywood;
-    }
 }
-.now_size{
-    background-color: chartreuse;
+
+.card{
+    border: 1px solid gray;
+    text-align: center;
+    vertical-align: middle;
+    color: gray;
+    padding-top: 37px;
+    transition:all 0.5s linear;
+    -webkit-transition:all 0.5s linear;
+   
 }
-.other_size{
-    background-color: chocolate;
+
+.card_empty{
+    background-color: burlywood;
 }
